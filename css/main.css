@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+div.box {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(47, 47, 77);
+  margin: 40px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+div.box > input.text  {
+  width: 350px;
+  height: 100px;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+ input {
+  width: 65px;
+  height: 65px;
+  background-color: rgb(226, 200, 160);
+  border-radius: 50px;
+  font-size:20px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+
+}
+input.ee {
+  width: 130px;
+  height: 65px;
+  background-color: rgb(226, 200, 160);
+  border-radius: 50px;
+  font-size:20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
